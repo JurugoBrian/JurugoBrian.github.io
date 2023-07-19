@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Water Sources Donut Chart</title>
+  <link rel="stylesheet" href="css/donut.css">
+</head>
+<body>
+  <div class="filter-container">
+    <label for="district">Filter by District:</label>
+    <select id="district" name="district">
+      <option value="all">All Districts</option>
+      <!-- Add options for each district in the dataset -->
+      <!-- Example: <option value="Nakasongola">Nakasongola</option> -->
+    </select>
+  </div>
+  <div class="chart-container">
+    <svg id="donut-chart"></svg>
+    <div class="legend-container"></div>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="js/donut.js"></script>
+</body>
+</html>

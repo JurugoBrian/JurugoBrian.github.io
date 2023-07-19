@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Styling for the scrollable legend container */
+.scrollable-legend {
+    max-height: 300px;
+    max-width: 200px; 
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+
+  /* Styling to position the legend on the left side */
+#legend-container {
+    position: absolute;
+    left: 100px; /* Adjust the left position to move the legend */
+    top: 130px; /* Adjust the top position if needed */
+  }
+  
+  /* Styling for each legend item */
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for the colored square in the legend */
+  .legend-color {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+  }
+  
+  /* Styling for the legend text */
+  .legend-text {
+    font-size: 14px;
+  }
+  
+  /* Additional styling for the radar chart and circles */
+  #radar-chart {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .circle {
+    stroke-width: 1px;
+    stroke: #ddd;
+    fill: none;
+  }
+  
